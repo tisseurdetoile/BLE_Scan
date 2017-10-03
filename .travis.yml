@@ -1,5 +1,11 @@
 language: objective-c
 osx_image: xcode9
-
-script: 
+script:
 - swift build
+deploy:
+  provider: releases
+  api_key:
+    secure: AMY62R2H144ognK9qQ4dQiarw85CTsX9JliHznHwSPB8FwyXqrJqAF74ZyO117CmuDxvJDN9DT+5BSfLAJ5GE97Xk8UreR1uHNIZP4/HA38t800reoj6lkPv/5QFJiY6aaFNJleZwllJvZaxGIKV+emqV1BxMbqRPKsRF8O9dP1RQokYMz/232vGwzajpt07NbZwMcceA9Bq+it5AqS3sc8cytCdeAvCR3I7PqFfr22rgiYxYXEEAsdA0JU79tvyhKFpumeF3fw3wFyl/noS6St026o0GEZVqtzkMyyqgsb1oBg3W6Q6omx+RHH0hXVyWU1u0OjcXzw4GfJClEqRrZji5lIbhiSEO+ygh1FjGBzC9pIJ2qDEoWSt+oY2Ze0awZQI9T2TnIsMy3PprEGJ3LwPQw5vnhMDPZDbcOda8xrbgLezQtULo8JSb9afCi42eoKGcQtAEZdofoePDJCxhh2oEqnHkkjLbVRiADn9UkXa09++n5uvkroR7oAn9gz1NS/LgirFi3x+bhs3HtIChnbV+KwUh7IYpPvYk4d4g7ItFG+l80mSBf58rnoEwN8jZREDnjqiRlfGXJgMIDnd56OZbxSGkmtgioA6B17kRwpDno0C0nWKCdU2LRjJR7U9ze0XP+/PseE6L9Rdl2OG2x1Jmtz3wFN8ZnxGYT2PiSg=
+  file: release.zip
+  on:
+    repo: tisseurdetoile/BLE_Scan
