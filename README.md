@@ -3,7 +3,13 @@
 
 # BLE_Scan
 A quick and dirty App that scan all nearby BLE device in terminal for OSX (written in swift)
+
 Tested on Macbook in OSX 10.12.6
+
+Work with :
+   - BLE Device
+   - EddyStone format beacon (URL)
+   - [Ruuvi tag](https://tag.ruuvi.com/)
 
 # Install and Run
     - Download BLE_scan from the latest release
@@ -31,7 +37,13 @@ Device : 79D87F37-8976-40FF-86EE-D9EC45869E1D - RSSI : -87 serviceData : [Unknow
 
 # BLE_Scan (En français)
 Une application brouillonne qui balaye les objets Bluetooth LE proche de votre mac (écrit en swift)
+
 Testé sur un Macbook avec OSX 10.12.6
+
+Fonctionne avec :
+   - Objets Bluetooth LE
+   - Object qui emmette au format EddyStone (URL)
+   - [Ruuvi tag](https://tag.ruuvi.com/)
 
 # Installer et Utiliser
     - Télécharger le fichier BLE_scan de la dernière livraison
