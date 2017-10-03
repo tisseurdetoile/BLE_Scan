@@ -1,3 +1,4 @@
 language: objective-c
 xcode_project: BLE_scan.xcodeproj # path to your xcodeproj folder
 xcode_scheme: BLE_scan
+osx_image: xcode9
