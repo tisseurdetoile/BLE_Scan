@@ -1,4 +1,5 @@
-language: swift
-xcode_project: BLE_scan.xcodeproj
-xcode_scheme: BLE_scan
+language: objective-c
 osx_image: xcode9
+
+script: 
+- swift build
