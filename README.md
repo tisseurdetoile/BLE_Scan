@@ -16,7 +16,7 @@ Scan all nearby BLE device in terminal for OSX (written in swift)
 
 ## in one image    
 
-![demo](screenshots/tty.gif)
+![demo](screenshot/tty.gif)
 
 
 ## example output
